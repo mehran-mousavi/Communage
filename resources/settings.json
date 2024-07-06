@@ -1,0 +1,706 @@
+{
+    "language_names": {
+        "af-ZA": "Afrikaans (South Africa)",
+        "sq-AL": "Albanian (Albania)",
+        "am-ET": "Amharic (Ethiopia)",
+        "ar-DZ": "Arabic (Algeria)",
+        "ar-BH": "Arabic (Bahrain)",
+        "ar-EG": "Arabic (Egypt)",
+        "ar-IQ": "Arabic (Iraq)",
+        "ar-JO": "Arabic (Jordan)",
+        "ar-KW": "Arabic (Kuwait)",
+        "ar-LB": "Arabic (Lebanon)",
+        "ar-LY": "Arabic (Libya)",
+        "ar-MA": "Arabic (Morocco)",
+        "ar-OM": "Arabic (Oman)",
+        "ar-QA": "Arabic (Qatar)",
+        "ar-SA": "Arabic (Saudi Arabia)",
+        "ar-SY": "Arabic (Syria)",
+        "ar-TN": "Arabic (Tunisia)",
+        "ar-AE": "Arabic (United Arab Emirates)",
+        "ar-YE": "Arabic (Yemen)",
+        "az-AZ": "Azerbaijani (Azerbaijan)",
+        "bn-BD": "Bangla (Bangladesh)",
+        "bn-IN": "Bengali (India)",
+        "bs-BA": "Bosnian (Bosnia)",
+        "bg-BG": "Bulgarian (Bulgaria)",
+        "my-MM": "Burmese (Myanmar)",
+        "ca-ES": "Catalan (Spain)",
+        "zh-HK": "Chinese (Hong Kong)",
+        "zh-CN": "Chinese (Mainland)",
+        "zh-CN-liaoning": "Chinese (Northeastern Mandarin)",
+        "zh-TW": "Chinese (Taiwanese Mandarin)",
+        "zh-CN-shaanxi": "Chinese (Zhongyuan Mandarin Shaanxi)",
+        "hr-HR": "Croatian (Croatia)",
+        "cs-CZ": "Czech (Czech)",
+        "da-DK": "Danish (Denmark)",
+        "nl-BE": "Dutch (Belgium)",
+        "nl-NL": "Dutch (Netherlands)",
+        "en-AU": "English (Australia)",
+        "en-CA": "English (Canada)",
+        "en-HK": "English (Hongkong)",
+        "en-IN": "English (India)",
+        "en-IE": "English (Ireland)",
+        "en-KE": "English (Kenya)",
+        "en-NZ": "English (New Zealand)",
+        "en-NG": "English (Nigeria)",
+        "en-PH": "English (Philippines)",
+        "en-SG": "English (Singapore)",
+        "en-ZA": "English (South Africa)",
+        "en-TZ": "English (Tanzania)",
+        "en-GB": "English (United Kingdom)",
+        "en-US": "English (United States)",
+        "et-EE": "Estonian (Estonia)",
+        "fil-PH": "Filipino (Philippines)",
+        "fi-FI": "Finnish (Finland)",
+        "fr-BE": "French (Belgium)",
+        "fr-CA": "French (Canada)",
+        "fr-FR": "French (France)",
+        "fr-CH": "French (Switzerland)",
+        "gl-ES": "Galician (Spain)",
+        "ka-GE": "Georgian (Georgia)",
+        "de-AT": "German (Austria)",
+        "de-DE": "German (Germany)",
+        "de-CH": "German (Switzerland)",
+        "el-GR": "Greek (Greece)",
+        "gu-IN": "Gujarati (India)",
+        "he-IL": "Hebrew (Israel)",
+        "hi-IN": "Hindi (India)",
+        "hu-HU": "Hungarian (Hungary)",
+        "is-IS": "Icelandic (Iceland)",
+        "id-ID": "Indonesian (Indonesia)",
+        "ga-IE": "Irish (Ireland)",
+        "it-IT": "Italian (Italy)",
+        "ja-JP": "Japanese (Japan)",
+        "jv-ID": "Javanese (Indonesia)",
+        "kn-IN": "Kannada (India)",
+        "kk-KZ": "Kazakh (Kazakhstan)",
+        "km-KH": "Khmer (Cambodia)",
+        "ko-KR": "Korean (Korea)",
+        "lo-LA": "Lao (Laos)",
+        "lv-LV": "Latvian (Latvia)",
+        "lt-LT": "Lithuanian (Lithuania)",
+        "mk-MK": "Macedonian (Republic of North Macedonia)",
+        "ms-MY": "Malay (Malaysia)",
+        "ml-IN": "Malayalam (India)",
+        "mt-MT": "Maltese (Malta)",
+        "mr-IN": "Marathi (India)",
+        "mn-MN": "Mongolian (Mongolia)",
+        "ne-NP": "Nepali (Nepal)",
+        "nb-NO": "Norwegian (Bokm\u00e5l, Norway)",
+        "ps-AF": "Pashto (Afghanistan)",
+        "fa-IR": "Persian (Iran)",
+        "pl-PL": "Polish (Poland)",
+        "pt-BR": "Portuguese (Brazil)",
+        "pt-PT": "Portuguese (Portugal)",
+        "ro-RO": "Romanian (Romania)",
+        "ru-RU": "Russian (Russia)",
+        "sr-RS": "Serbian (Serbia)",
+        "si-LK": "Sinhala (Sri Lanka)",
+        "sk-SK": "Slovak (Slovakia)",
+        "sl-SI": "Slovenian (Slovenia)",
+        "so-SO": "Somali (Somalia)",
+        "es-AR": "Spanish (Argentina)",
+        "es-BO": "Spanish (Bolivia)",
+        "es-CL": "Spanish (Chile)",
+        "es-ES": "Spanish (Spain)",
+        "es-CO": "Spanish (Colombia)",
+        "es-CR": "Spanish (Costa Rica)",
+        "es-CU": "Spanish (Cuba)",
+        "es-DO": "Spanish (Dominican Republic)",
+        "es-EC": "Spanish (Ecuador)",
+        "es-SV": "Spanish (El Salvador)",
+        "es-GQ": "Spanish (Equatorial Guinea)",
+        "es-GT": "Spanish (Guatemala)",
+        "es-HN": "Spanish (Honduras)",
+        "es-MX": "Spanish (Mexico)",
+        "es-NI": "Spanish (Nicaragua)",
+        "es-PA": "Spanish (Panama)",
+        "es-PY": "Spanish (Paraguay)",
+        "es-PE": "Spanish (Peru)",
+        "es-PR": "Spanish (Puerto Rico)",
+        "es-US": "Spanish (United States)",
+        "es-UY": "Spanish (Uruguay)",
+        "es-VE": "Spanish (Venezuela)",
+        "su-ID": "Sundanese (Indonesia)",
+        "sw-KE": "Swahili (Kenya)",
+        "sw-TZ": "Swahili (Tanzania)",
+        "sv-SE": "Swedish (Sweden)",
+        "ta-IN": "Tamil (India)",
+        "ta-MY": "Tamil (Malaysia)",
+        "ta-SG": "Tamil (Singapore)",
+        "ta-LK": "Tamil (Sri Lanka)",
+        "te-IN": "Telugu (India)",
+        "th-TH": "Thai (Thailand)",
+        "tr-TR": "Turkish (Turkey)",
+        "uk-UA": "Ukrainian (Ukraine)",
+        "ur-IN": "Urdu (India)",
+        "ur-PK": "Urdu (Pakistan)",
+        "uz-UZ": "Uzbek (Uzbekistan)",
+        "vi-VN": "Vietnamese (Vietnam)",
+        "cy-GB": "Welsh (United Kingdom)",
+        "zu-ZA": "Zulu (South Africa)"
+    },
+    "edge_tts_voice_mapping": {
+        "af-ZA": {
+            "male": "af-ZA-WillemNeural",
+            "female": "af-ZA-AdriNeural"
+        },
+        "sq-AL": {
+            "male": "sq-AL-IlirNeural",
+            "female": "sq-AL-AnilaNeural"
+        },
+        "am-ET": {
+            "male": "am-ET-AmehaNeural",
+            "female": "am-ET-MekdesNeural"
+        },
+        "ar-DZ": {
+            "male": "ar-DZ-IsmaelNeural",
+            "female": "ar-DZ-AminaNeural"
+        },
+        "ar-BH": {
+            "male": "ar-BH-AliNeural",
+            "female": "ar-BH-LailaNeural"
+        },
+        "ar-EG": {
+            "male": "ar-EG-ShakirNeural",
+            "female": "ar-EG-SalmaNeural"
+        },
+        "ar-IQ": {
+            "male": "ar-IQ-BasselNeural",
+            "female": "ar-IQ-RanaNeural"
+        },
+        "ar-JO": {
+            "male": "ar-JO-TaimNeural",
+            "female": "ar-JO-SanaNeural"
+        },
+        "ar-KW": {
+            "male": "ar-KW-FahedNeural",
+            "female": "ar-KW-NouraNeural"
+        },
+        "ar-LB": {
+            "male": "ar-LB-RamiNeural",
+            "female": "ar-LB-LaylaNeural"
+        },
+        "ar-LY": {
+            "male": "ar-LY-OmarNeural",
+            "female": "ar-LY-ImanNeural"
+        },
+        "ar-MA": {
+            "male": "ar-MA-JamalNeural",
+            "female": "ar-MA-MounaNeural"
+        },
+        "ar-OM": {
+            "male": "ar-OM-AbdullahNeural",
+            "female": "ar-OM-AyshaNeural"
+        },
+        "ar-QA": {
+            "male": "ar-QA-MoazNeural",
+            "female": "ar-QA-AmalNeural"
+        },
+        "ar-SA": {
+            "male": "ar-SA-HamedNeural",
+            "female": "ar-SA-ZariyahNeural"
+        },
+        "ar-SY": {
+            "male": "ar-SY-LaithNeural",
+            "female": "ar-SY-AmanyNeural"
+        },
+        "ar-TN": {
+            "male": "ar-TN-HediNeural",
+            "female": "ar-TN-ReemNeural"
+        },
+        "ar-AE": {
+            "male": "ar-AE-HamdanNeural",
+            "female": "ar-AE-FatimaNeural"
+        },
+        "ar-YE": {
+            "male": "ar-YE-SalehNeural",
+            "female": "ar-YE-MaryamNeural"
+        },
+        "az-AZ": {
+            "male": "az-AZ-BabekNeural",
+            "female": "az-AZ-BanuNeural"
+        },
+        "bn-BD": {
+            "male": "bn-BD-PradeepNeural",
+            "female": "bn-BD-NabanitaNeural"
+        },
+        "bn-IN": {
+            "male": "bn-IN-BashkarNeural",
+            "female": "bn-IN-TanishaaNeural"
+        },
+        "bs-BA": {
+            "male": "bs-BA-GoranNeural",
+            "female": "bs-BA-VesnaNeural"
+        },
+        "bg-BG": {
+            "male": "bg-BG-BorislavNeural",
+            "female": "bg-BG-KalinaNeural"
+        },
+        "my-MM": {
+            "male": "my-MM-ThihaNeural",
+            "female": "my-MM-NilarNeural"
+        },
+        "ca-ES": {
+            "male": "ca-ES-EnricNeural",
+            "female": "ca-ES-JoanaNeural"
+        },
+        "zh-HK": {
+            "male": "zh-HK-WanLungNeural",
+            "female": "zh-HK-HiuMaanNeural"
+        },
+        "zh-CN": {
+            "male": "zh-CN-YunyangNeural",
+            "female": "zh-CN-XiaoyiNeural"
+        },
+        "zh-CN-liaoning": {
+            "male": "",
+            "female": "zh-CN-liaoning-XiaobeiNeural"
+        },
+        "zh-TW": {
+            "male": "zh-TW-YunJheNeural",
+            "female": "zh-TW-HsiaoYuNeural"
+        },
+        "zh-CN-shaanxi": {
+            "male": "",
+            "female": "zh-CN-shaanxi-XiaoniNeural"
+        },
+        "hr-HR": {
+            "male": "hr-HR-SreckoNeural",
+            "female": "hr-HR-GabrijelaNeural"
+        },
+        "cs-CZ": {
+            "male": "cs-CZ-AntoninNeural",
+            "female": "cs-CZ-VlastaNeural"
+        },
+        "da-DK": {
+            "male": "da-DK-JeppeNeural",
+            "female": "da-DK-ChristelNeural"
+        },
+        "nl-BE": {
+            "male": "nl-BE-ArnaudNeural",
+            "female": "nl-BE-DenaNeural"
+        },
+        "nl-NL": {
+            "male": "nl-NL-MaartenNeural",
+            "female": "nl-NL-FennaNeural"
+        },
+        "en-AU": {
+            "male": "en-AU-WilliamNeural",
+            "female": "en-AU-NatashaNeural"
+        },
+        "en-CA": {
+            "male": "en-CA-LiamNeural",
+            "female": "en-CA-ClaraNeural"
+        },
+        "en-HK": {
+            "male": "en-HK-SamNeural",
+            "female": "en-HK-YanNeural"
+        },
+        "en-IN": {
+            "male": "en-IN-PrabhatNeural",
+            "female": "en-IN-NeerjaNeural"
+        },
+        "en-IE": {
+            "male": "en-IE-ConnorNeural",
+            "female": "en-IE-EmilyNeural"
+        },
+        "en-KE": {
+            "male": "en-KE-ChilembaNeural",
+            "female": "en-KE-AsiliaNeural"
+        },
+        "en-NZ": {
+            "male": "en-NZ-MitchellNeural",
+            "female": "en-NZ-MollyNeural"
+        },
+        "en-NG": {
+            "male": "en-NG-AbeoNeural",
+            "female": "en-NG-EzinneNeural"
+        },
+        "en-PH": {
+            "male": "en-PH-JamesNeural",
+            "female": "en-PH-RosaNeural"
+        },
+        "en-SG": {
+            "male": "en-SG-WayneNeural",
+            "female": "en-SG-LunaNeural"
+        },
+        "en-ZA": {
+            "male": "en-ZA-LukeNeural",
+            "female": "en-ZA-LeahNeural"
+        },
+        "en-TZ": {
+            "male": "en-TZ-ElimuNeural",
+            "female": "en-TZ-ImaniNeural"
+        },
+        "en-GB": {
+            "male": "en-GB-ThomasNeural",
+            "female": "en-GB-SoniaNeural"
+        },
+        "en-US": {
+            "male": "en-US-SteffanNeural",
+            "female": "en-US-MichelleNeural"
+        },
+        "et-EE": {
+            "male": "et-EE-KertNeural",
+            "female": "et-EE-AnuNeural"
+        },
+        "fil-PH": {
+            "male": "fil-PH-AngeloNeural",
+            "female": "fil-PH-BlessicaNeural"
+        },
+        "fi-FI": {
+            "male": "fi-FI-HarriNeural",
+            "female": "fi-FI-NooraNeural"
+        },
+        "fr-BE": {
+            "male": "fr-BE-GerardNeural",
+            "female": "fr-BE-CharlineNeural"
+        },
+        "fr-CA": {
+            "male": "fr-CA-JeanNeural",
+            "female": "fr-CA-SylvieNeural"
+        },
+        "fr-FR": {
+            "male": "fr-FR-HenriNeural",
+            "female": "fr-FR-EloiseNeural"
+        },
+        "fr-CH": {
+            "male": "fr-CH-FabriceNeural",
+            "female": "fr-CH-ArianeNeural"
+        },
+        "gl-ES": {
+            "male": "gl-ES-RoiNeural",
+            "female": "gl-ES-SabelaNeural"
+        },
+        "ka-GE": {
+            "male": "ka-GE-GiorgiNeural",
+            "female": "ka-GE-EkaNeural"
+        },
+        "de-AT": {
+            "male": "de-AT-JonasNeural",
+            "female": "de-AT-IngridNeural"
+        },
+        "de-DE": {
+            "male": "de-DE-KillianNeural",
+            "female": "de-DE-KatjaNeural"
+        },
+        "de-CH": {
+            "male": "de-CH-JanNeural",
+            "female": "de-CH-LeniNeural"
+        },
+        "el-GR": {
+            "male": "el-GR-NestorasNeural",
+            "female": "el-GR-AthinaNeural"
+        },
+        "gu-IN": {
+            "male": "gu-IN-NiranjanNeural",
+            "female": "gu-IN-DhwaniNeural"
+        },
+        "he-IL": {
+            "male": "he-IL-AvriNeural",
+            "female": "he-IL-HilaNeural"
+        },
+        "hi-IN": {
+            "male": "hi-IN-MadhurNeural",
+            "female": "hi-IN-SwaraNeural"
+        },
+        "hu-HU": {
+            "male": "hu-HU-TamasNeural",
+            "female": "hu-HU-NoemiNeural"
+        },
+        "is-IS": {
+            "male": "is-IS-GunnarNeural",
+            "female": "is-IS-GudrunNeural"
+        },
+        "id-ID": {
+            "male": "id-ID-ArdiNeural",
+            "female": "id-ID-GadisNeural"
+        },
+        "ga-IE": {
+            "male": "ga-IE-ColmNeural",
+            "female": "ga-IE-OrlaNeural"
+        },
+        "it-IT": {
+            "male": "it-IT-DiegoNeural",
+            "female": "it-IT-IsabellaNeural"
+        },
+        "ja-JP": {
+            "male": "ja-JP-KeitaNeural",
+            "female": "ja-JP-NanamiNeural"
+        },
+        "jv-ID": {
+            "male": "jv-ID-DimasNeural",
+            "female": "jv-ID-SitiNeural"
+        },
+        "kn-IN": {
+            "male": "kn-IN-GaganNeural",
+            "female": "kn-IN-SapnaNeural"
+        },
+        "kk-KZ": {
+            "male": "kk-KZ-DauletNeural",
+            "female": "kk-KZ-AigulNeural"
+        },
+        "km-KH": {
+            "male": "km-KH-PisethNeural",
+            "female": "km-KH-SreymomNeural"
+        },
+        "ko-KR": {
+            "male": "ko-KR-InJoonNeural",
+            "female": "ko-KR-SunHiNeural"
+        },
+        "lo-LA": {
+            "male": "lo-LA-ChanthavongNeural",
+            "female": "lo-LA-KeomanyNeural"
+        },
+        "lv-LV": {
+            "male": "lv-LV-NilsNeural",
+            "female": "lv-LV-EveritaNeural"
+        },
+        "lt-LT": {
+            "male": "lt-LT-LeonasNeural",
+            "female": "lt-LT-OnaNeural"
+        },
+        "mk-MK": {
+            "male": "mk-MK-AleksandarNeural",
+            "female": "mk-MK-MarijaNeural"
+        },
+        "ms-MY": {
+            "male": "ms-MY-OsmanNeural",
+            "female": "ms-MY-YasminNeural"
+        },
+        "ml-IN": {
+            "male": "ml-IN-MidhunNeural",
+            "female": "ml-IN-SobhanaNeural"
+        },
+        "mt-MT": {
+            "male": "mt-MT-JosephNeural",
+            "female": "mt-MT-GraceNeural"
+        },
+        "mr-IN": {
+            "male": "mr-IN-ManoharNeural",
+            "female": "mr-IN-AarohiNeural"
+        },
+        "mn-MN": {
+            "male": "mn-MN-BataaNeural",
+            "female": "mn-MN-YesuiNeural"
+        },
+        "ne-NP": {
+            "male": "ne-NP-SagarNeural",
+            "female": "ne-NP-HemkalaNeural"
+        },
+        "nb-NO": {
+            "male": "nb-NO-FinnNeural",
+            "female": "nb-NO-PernilleNeural"
+        },
+        "ps-AF": {
+            "male": "ps-AF-GulNawazNeural",
+            "female": "ps-AF-LatifaNeural"
+        },
+        "fa-IR": {
+            "male": "fa-IR-FaridNeural",
+            "female": "fa-IR-DilaraNeural"
+        },
+        "pl-PL": {
+            "male": "pl-PL-MarekNeural",
+            "female": "pl-PL-ZofiaNeural"
+        },
+        "pt-BR": {
+            "male": "pt-BR-AntonioNeural",
+            "female": "pt-BR-FranciscaNeural"
+        },
+        "pt-PT": {
+            "male": "pt-PT-DuarteNeural",
+            "female": "pt-PT-RaquelNeural"
+        },
+        "ro-RO": {
+            "male": "ro-RO-EmilNeural",
+            "female": "ro-RO-AlinaNeural"
+        },
+        "ru-RU": {
+            "male": "ru-RU-DmitryNeural",
+            "female": "ru-RU-SvetlanaNeural"
+        },
+        "sr-RS": {
+            "male": "sr-RS-NicholasNeural",
+            "female": "sr-RS-SophieNeural"
+        },
+        "si-LK": {
+            "male": "si-LK-SameeraNeural",
+            "female": "si-LK-ThiliniNeural"
+        },
+        "sk-SK": {
+            "male": "sk-SK-LukasNeural",
+            "female": "sk-SK-ViktoriaNeural"
+        },
+        "sl-SI": {
+            "male": "sl-SI-RokNeural",
+            "female": "sl-SI-PetraNeural"
+        },
+        "so-SO": {
+            "male": "so-SO-MuuseNeural",
+            "female": "so-SO-UbaxNeural"
+        },
+        "es-AR": {
+            "male": "es-AR-TomasNeural",
+            "female": "es-AR-ElenaNeural"
+        },
+        "es-BO": {
+            "male": "es-BO-MarceloNeural",
+            "female": "es-BO-SofiaNeural"
+        },
+        "es-CL": {
+            "male": "es-CL-LorenzoNeural",
+            "female": "es-CL-CatalinaNeural"
+        },
+        "es-ES": {
+            "male": "es-ES-AlvaroNeural",
+            "female": "es-ES-ElviraNeural"
+        },
+        "es-CO": {
+            "male": "es-CO-GonzaloNeural",
+            "female": "es-CO-SalomeNeural"
+        },
+        "es-CR": {
+            "male": "es-CR-JuanNeural",
+            "female": "es-CR-MariaNeural"
+        },
+        "es-CU": {
+            "male": "es-CU-ManuelNeural",
+            "female": "es-CU-BelkysNeural"
+        },
+        "es-DO": {
+            "male": "es-DO-EmilioNeural",
+            "female": "es-DO-RamonaNeural"
+        },
+        "es-EC": {
+            "male": "es-EC-LuisNeural",
+            "female": "es-EC-AndreaNeural"
+        },
+        "es-SV": {
+            "male": "es-SV-RodrigoNeural",
+            "female": "es-SV-LorenaNeural"
+        },
+        "es-GQ": {
+            "male": "es-GQ-JavierNeural",
+            "female": "es-GQ-TeresaNeural"
+        },
+        "es-GT": {
+            "male": "es-GT-AndresNeural",
+            "female": "es-GT-MartaNeural"
+        },
+        "es-HN": {
+            "male": "es-HN-CarlosNeural",
+            "female": "es-HN-KarlaNeural"
+        },
+        "es-MX": {
+            "male": "es-MX-JorgeNeural",
+            "female": "es-MX-DaliaNeural"
+        },
+        "es-NI": {
+            "male": "es-NI-FedericoNeural",
+            "female": "es-NI-YolandaNeural"
+        },
+        "es-PA": {
+            "male": "es-PA-RobertoNeural",
+            "female": "es-PA-MargaritaNeural"
+        },
+        "es-PY": {
+            "male": "es-PY-MarioNeural",
+            "female": "es-PY-TaniaNeural"
+        },
+        "es-PE": {
+            "male": "es-PE-AlexNeural",
+            "female": "es-PE-CamilaNeural"
+        },
+        "es-PR": {
+            "male": "es-PR-VictorNeural",
+            "female": "es-PR-KarinaNeural"
+        },
+        "es-US": {
+            "male": "es-US-AlonsoNeural",
+            "female": "es-US-PalomaNeural"
+        },
+        "es-UY": {
+            "male": "es-UY-MateoNeural",
+            "female": "es-UY-ValentinaNeural"
+        },
+        "es-VE": {
+            "male": "es-VE-SebastianNeural",
+            "female": "es-VE-PaolaNeural"
+        },
+        "su-ID": {
+            "male": "su-ID-JajangNeural",
+            "female": "su-ID-TutiNeural"
+        },
+        "sw-KE": {
+            "male": "sw-KE-RafikiNeural",
+            "female": "sw-KE-ZuriNeural"
+        },
+        "sw-TZ": {
+            "male": "sw-TZ-DaudiNeural",
+            "female": "sw-TZ-RehemaNeural"
+        },
+        "sv-SE": {
+            "male": "sv-SE-MattiasNeural",
+            "female": "sv-SE-SofieNeural"
+        },
+        "ta-IN": {
+            "male": "ta-IN-ValluvarNeural",
+            "female": "ta-IN-PallaviNeural"
+        },
+        "ta-MY": {
+            "male": "ta-MY-SuryaNeural",
+            "female": "ta-MY-KaniNeural"
+        },
+        "ta-SG": {
+            "male": "ta-SG-AnbuNeural",
+            "female": "ta-SG-VenbaNeural"
+        },
+        "ta-LK": {
+            "male": "ta-LK-KumarNeural",
+            "female": "ta-LK-SaranyaNeural"
+        },
+        "te-IN": {
+            "male": "te-IN-MohanNeural",
+            "female": "te-IN-ShrutiNeural"
+        },
+        "th-TH": {
+            "male": "th-TH-NiwatNeural",
+            "female": "th-TH-PremwadeeNeural"
+        },
+        "tr-TR": {
+            "male": "tr-TR-AhmetNeural",
+            "female": "tr-TR-EmelNeural"
+        },
+        "uk-UA": {
+            "male": "uk-UA-OstapNeural",
+            "female": "uk-UA-PolinaNeural"
+        },
+        "ur-IN": {
+            "male": "ur-IN-SalmanNeural",
+            "female": "ur-IN-GulNeural"
+        },
+        "ur-PK": {
+            "male": "ur-PK-AsadNeural",
+            "female": "ur-PK-UzmaNeural"
+        },
+        "uz-UZ": {
+            "male": "uz-UZ-SardorNeural",
+            "female": "uz-UZ-MadinaNeural"
+        },
+        "vi-VN": {
+            "male": "vi-VN-NamMinhNeural",
+            "female": "vi-VN-HoaiMyNeural"
+        },
+        "cy-GB": {
+            "male": "cy-GB-AledNeural",
+            "female": "cy-GB-NiaNeural"
+        },
+        "zu-ZA": {
+            "male": "zu-ZA-ThembaNeural",
+            "female": "zu-ZA-ThandoNeural"
+        }
+    }
+}
