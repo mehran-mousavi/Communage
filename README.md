@@ -11,6 +11,11 @@ Imagine having the superpower to speak any language in every voice or video call
 
 Whether you're closing international deals or catching up with friends around the world, Communage ensures you're always understood. Experience the future of communication today and join a global community without language limits.
 
+### Supported Platforms
+- **Windows**
+
+**Note:** Mac and Linux support is on my to-do list and will be coming soon! feel free to fork and help me by your pull requests...
+
 ⭐️ **Star us on GitHub** and be part of this groundbreaking journey! 🚀
 
 ---
